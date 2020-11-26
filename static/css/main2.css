@@ -1,0 +1,121 @@
+
+.message{
+    color: red;
+    font-size: 2rem;
+}
+.first{
+    color: black;
+    font-size: 1.5rem;
+}
+.present{
+    width: 25rem;
+    height: 20rem;
+position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color:black;
+
+}
+.present1{
+    margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bod{
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+   font-style: italic;
+}
+
+.twin{
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 2em;
+}
+.twin span{
+    font-size: 3rem;
+    display: table-cell;
+    margin: 0;
+    padding:0;
+    animation: animate 1s linear infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .twin span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.twin span:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+.twin span:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+.twin span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+.twin span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+.twin span:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+.twin span:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+.twin span:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+.twin span:nth-child(9)
+{
+    animation-delay: 2s;
+} */
+@keyframes animate
+{
+    0%,100%{
+        color: #fff;
+        filter: blur(2px);
+        text-shadow:0 0 10px red,
+                    0 0 20px red,
+                    0 0 40px red,
+                    0 0 80px red,
+                    0 0 120px red,
+                    0 0 200px red,
+                    0 0 300px red,
+                    0 0 400px red,
+                    0 0 400px red;
+            text-shadow:0 0 10px red,
+                    0 0 20px red,
+                    0 0 40px red,
+                    0 0 80px red,
+                    0 0 120px red,
+                    0 0 200px red,
+                    0 0 300px red,
+                    0 0 400px red,
+                    0 0 400px red;
+                   
+    }
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}

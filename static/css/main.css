@@ -1,0 +1,242 @@
+.attack{
+  background-color: black;
+}
+.load{
+  background-color: white;
+  width: 30%;
+}
+img {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+    animation: ans  2s linear;
+
+  }
+  .container10 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container11 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container12 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container13 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container14 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container15 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container16 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+  .container17 {
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+
+  }
+
+  /* ek row me krne ke liye */
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+img1 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+
+    animation: ans  2s linear;
+
+  }
+img2 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+
+    animation: ans  2s linear;
+
+  }
+img3 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+
+    animation: ans  2s linear;
+
+  }
+img4 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+
+    animation: ans  2s linear;
+
+  }
+img5 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+    animation: ans  2s linear;
+
+  }
+img6 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+
+    animation: ans  2s linear;
+
+  }
+img7 {
+    width: 70%;
+    height: 70%;
+    margin: 1rem;
+    animation: ans  2s linear;
+
+  }
+  
+  @keyframes ani {
+    0% {
+      transform: scale(1.2);
+    }
+    10% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .abc{
+      text-align: center;
+  }
+  .abcd{
+      text-align: center;
+      color: white;
+  }
+
+/* footer css */
+.footer{
+    /* background-color: #4f868c!important; */
+    background-color:black;
+}
+.footerlogo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cus{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 3.1rem;
+}
+.cus1{
+    color:#4f868c!important;
+    
+}
+.cus2{
+    color: red;
+}
+.cuso{
+    padding-top: 10px;
+}
+
+/* responsive website */
+@media(max-width:586px){
+    .aman img{
+        height: 500px;
+    }
+}
+@media(max-width:790px){
+    .container1{
+        flex-direction: column;
+    }
+}
+@media(max-width:625px){
+    .container4{
+        flex-direction: column;
+    }
+}
+@media(max-width:791px){
+    .container1{
+        flex-direction: column;
+    }
+    .ironman{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+
+    }
+}
